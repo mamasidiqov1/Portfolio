@@ -1,8 +1,10 @@
 .info{
-    width: 1920px;
-    height: 313px;
     flex-shrink: 0;
-    background: linear-gradient(90deg, #1D1D1D 31.74%, #1D1D1D 90.49%, #1D1D1D 90.49%);
+    .container{
+        width: 1920px;
+        height: 350px;
+        background: linear-gradient(90deg, #1D1D1D 31.74%, #1D1D1D 90.49%, #1D1D1D 90.49%);
+    }
     h2{
         width: 363px;
         height: 63px;
@@ -25,7 +27,7 @@
         flex-shrink: 0;
         color: #FFF;
         text-align: justify;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-family: Montserrat;
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
@@ -36,6 +38,7 @@
             width: 200px;
             height: 35px;
             margin-top: 70px;
+            margin-bottom: 40px;
             margin-left: 102px;
             flex-shrink: 0;
             color: black;
@@ -48,5 +51,7 @@
             border-radius: 15px;
 
         }
+        
     }
 }
+

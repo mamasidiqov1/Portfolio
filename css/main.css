@@ -22,59 +22,54 @@ a, li {
   text-decoration: none;
 }
 
-header {
-  width: 1920px;
-  background: #D7D7D7;
-}
 header .container {
-  flex-shrink: 0;
+  background: #D7D7D7;
   background-image: url(/img/Rectangle\ 67.png);
-  background-position: top left 700px;
+  background-position: top left -180px;
   background-repeat: no-repeat;
   background-size: cover;
-  flex-shrink: 0;
 }
 header .nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  background-color: rgb(77, 77, 77);
 }
 header .nav .logo {
   width: 59.666px;
   height: 50px;
   flex-shrink: 0;
-  margin-left: 272px;
-  margin-top: 72px;
+  margin-left: 70px;
 }
 header .nav ul {
   display: flex;
-  margin-right: 200px;
-  margin-top: 65px;
+  justify-content: space-between;
+  padding-right: 100px;
 }
 header .nav ul li {
   display: flex;
-  justify-content: center;
-  text-align: center;
   width: 147px;
   height: 46px;
-  margin-left: 33px;
-  color: rgb(255, 255, 255);
-  font-size: 17px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  flex-shrink: 0;
-}
-header .nav ul .btn {
-  margin-left: 33px;
-  width: 147px;
-  height: 46px;
-  border-radius: 20px;
-  display: flex;
-  text-align: center;
   flex-direction: column;
   justify-content: center;
+  flex-shrink: 0;
+  color: #888181;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 40px;
+}
+header .nav ul button {
+  display: flex;
+  width: 147px;
+  height: 46px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
   color: #000;
+  text-align: center;
   font-family: Montserrat;
   font-size: 15px;
   font-style: normal;
@@ -85,10 +80,10 @@ header .hero {
   display: flex;
 }
 header .hero .portret {
-  width: 700px;
-  height: 900px;
-  margin-top: 34px;
-  margin-left: 500px;
+  width: 500px;
+  height: 700px;
+  margin-top: 60px;
+  margin-left: 300px;
   flex-shrink: 0;
 }
 header .hero h3 {
@@ -96,7 +91,7 @@ header .hero h3 {
   width: 171px;
   height: 58px;
   margin-top: 229px;
-  margin-left: 256px;
+  margin-left: 70px;
   flex-direction: column;
   justify-content: flex-end;
   flex-shrink: 0;
@@ -112,12 +107,12 @@ header .hero h2 {
   width: 100px;
   height: 105px;
   margin-top: 54px;
-  margin-left: 271px;
+  margin-left: 80px;
   flex-shrink: 0;
   color: #000;
   text-align: center;
   font-family: Raleway;
-  font-size: 80px;
+  font-size: 65px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -125,8 +120,8 @@ header .hero h2 {
 header .hero p {
   width: 426px;
   height: 40px;
-  margin-top: 97px;
-  margin-left: 200px;
+  margin-top: 50px;
+  margin-left: 10px;
   flex-shrink: 0;
   color: #909090;
   text-align: center;
@@ -137,20 +132,22 @@ header .hero p {
   line-height: normal;
 }
 header .hero .icons {
-  margin-top: 137px;
-  margin-left: 271px;
+  margin-top: 100px;
+  margin-left: 80px;
 }
 header .hero .icons a {
   width: 34.965px;
   height: 34.039px;
   flex-shrink: 0;
-  margin-left: 10px;
+  margin-left: 50px;
 }
 
 .info {
-  width: 1920px;
-  height: 313px;
   flex-shrink: 0;
+}
+.info .container {
+  width: 1920px;
+  height: 350px;
   background: linear-gradient(90deg, #1D1D1D 31.74%, #1D1D1D 90.49%, #1D1D1D 90.49%);
 }
 .info h2 {
@@ -175,7 +172,7 @@ header .hero .icons a {
   flex-shrink: 0;
   color: #FFF;
   text-align: justify;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: Montserrat;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -185,6 +182,7 @@ header .hero .icons a {
   width: 200px;
   height: 35px;
   margin-top: 70px;
+  margin-bottom: 40px;
   margin-left: 102px;
   flex-shrink: 0;
   color: black;
@@ -197,25 +195,243 @@ header .hero .icons a {
   border-radius: 15px;
 }
 
-.about {
-  width: 1920px;
-  height: 3017px;
+.resume {
   flex-shrink: 0;
+}
+.resume .container {
+  width: 1920px;
+  height: 450px;
   background: radial-gradient(50% 50% at 50% 50%, rgba(26, 21, 21, 0) 0%, rgba(1, 1, 1, 0.16) 100%), #FFF;
 }
-.about h2 {
+.resume h2 {
   display: flex;
   height: 74px;
-  padding-left: 600px;
+  margin-top: -30px;
+  padding-top: 40px;
+  padding-right: -20px;
+  padding-left: 20px;
   flex-direction: column;
   justify-content: center;
   flex-shrink: 0;
   color: #000;
   text-align: center;
   font-family: Montserrat;
-  font-size: 30px;
+  font-size: 50px;
   font-style: normal;
   font-weight: 700;
   line-height: 127.9%; /* 38.37px */
   letter-spacing: 10.661px;
+}
+.resume p {
+  padding: 50px;
+  color: #050505;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 138.682%; /* 20.802px */
+}
+.resume .btn__group {
+  display: inline-block;
+  margin-left: 500px;
+  padding-bottom: 50px;
+}
+.resume .btn__group .view {
+  width: 180px;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 0;
+  border-right: 0;
+  color: black;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+}
+.resume .btn__group .download {
+  width: 100px;
+  height: 50px;
+  margin-left: -10px;
+  border-radius: 0;
+  border: 2px solid black;
+  color: black;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+}
+.resume .btn__group .download img {
+  width: 20px;
+  height: 20px;
+}
+
+.skills .container {
+  width: 1920px;
+  height: 1200px;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0) 0%, rgba(2, 2, 2, 0.16) 100%), #0c0c0c;
+}
+.skills h2 {
+  display: flex;
+  width: 404px;
+  height: 74px;
+  padding-top: 50px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-left: 450px;
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 127.9%; /* 38.37px */
+  letter-spacing: 10.661px;
+}
+.skills h5 {
+  color: #909090;
+  font-family: Raleway;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 800;
+  padding-top: 96px;
+  padding-left: 100px;
+}
+.skills .first_icons {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 75px;
+}
+.skills .first_names {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  margin-left: 10px;
+}
+.skills .first_names h6 {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 3.249px;
+}
+.skills .first_names .others {
+  margin-right: 90px;
+}
+
+.proyects .container {
+  width: 1920px;
+  height: 1000px;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(26, 21, 21, 0) 0%, rgba(1, 1, 1, 0.16) 100%), #FFF;
+}
+.proyects h2 {
+  display: flex;
+  height: 74px;
+  margin-top: -30px;
+  padding-top: 40px;
+  padding-right: -20px;
+  padding-left: 20px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 127.9%; /* 38.37px */
+  letter-spacing: 10.661px;
+}
+.proyects .card {
+  margin-top: 100px;
+}
+.proyects .card2 {
+  margin-top: 200px;
+}
+.proyects .cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact .container {
+  width: 1950px;
+  height: 750px;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0) 0%, rgba(2, 2, 2, 0.16) 100%), #0c0c0c;
+  display: flex;
+}
+.contact h2 {
+  display: flex;
+  width: 404px;
+  height: 74px;
+  padding-top: 50px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-left: 400px;
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 127.9%; /* 38.37px */
+  letter-spacing: 10.661px;
+}
+.contact h3 {
+  color: #909090;
+  font-family: Raleway;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  margin-top: 150px;
+  margin-left: -100px;
+}
+.contact h4 {
+  color: #909090;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  padding-top: 96px;
+  padding-left: 80px;
+}
+.contact input {
+  width: 400px;
+  height: 60px;
+  border-radius: 10px;
+  margin-left: 75px;
+}
+.contact textarea {
+  width: 500px;
+  height: 400px;
+  margin-top: 50px;
+  margin-left: -100px;
+  border-radius: 10px;
+}
+
+.footer .container {
+  width: 1950px;
+  height: 150px;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0) 0%, rgba(2, 2, 2, 0.16) 100%), #0c0c0c;
+}
+.footer .container .img {
+  margin-left: 400px;
+}
+.footer .container .img img {
+  margin-left: 50px;
+}
+.footer .container h5 {
+  color: #FFF;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 50px;
+  margin-left: 370px;
 }/*# sourceMappingURL=main.css.map */

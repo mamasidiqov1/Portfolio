@@ -1,0 +1,61 @@
+.skills{
+    .container{
+        width: 1920px;
+        height: 1200px;
+        background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0) 0%, rgba(2, 2, 2, 0.16) 100%), #0c0c0c;
+    }
+    h2{
+        display: flex;
+        width: 404px;
+        height: 74px;   
+        padding-top: 50px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-left: 450px;
+        color:  #fff;;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 127.9%; /* 38.37px */
+        letter-spacing: 10.661px;
+    }
+    h5{
+        color: #909090;
+        font-family: Raleway;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 800;
+        padding-top: 96px;
+        padding-left: 100px;
+    }
+    .first_icons{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding-top: 75px;
+    }
+    .first_names{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding-top: 30px;
+        margin-left: 10px;
+        h6{
+            color: #fff;
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 3.249px;
+
+        }
+    .others{
+            margin-right: 90px;
+        }
+    }
+}

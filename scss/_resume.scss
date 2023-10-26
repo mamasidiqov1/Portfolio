@@ -1,22 +1,71 @@
-.about{
-    width: 1920px;
-height: 3017px;
-flex-shrink: 0;
-    background: radial-gradient(50% 50% at 50% 50%, rgba(26, 21, 21, 0.00) 0%, rgba(1, 1, 1, 0.16) 100%), #FFF;
+.resume{
+    flex-shrink: 0;
+    .container{
+        width: 1920px;
+        height: 450px;
+        background: radial-gradient(50% 50% at 50% 50%, rgba(26, 21, 21, 0.00) 0%, rgba(1, 1, 1, 0.16) 100%), #FFF;
+    }
     h2{
         display: flex;
         height: 74px;
-        padding-left: 600px;
+        margin-top: -30px;
+        padding-top: 40px;
+        padding-right: -20px;
+        padding-left: 20px;
         flex-direction: column;
         justify-content: center;
         flex-shrink: 0;
         color: #000;
         text-align: center;
         font-family: Montserrat;
-        font-size: 30px;
+        font-size: 50px;
         font-style: normal;
         font-weight: 700;
         line-height: 127.9%; /* 38.37px */
         letter-spacing: 10.661px;
     }
+    p{
+        padding: 50px;
+        color: #050505;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 138.682%; /* 20.802px */
+    }
+    .btn__group{
+        display: inline-block;
+        margin-left: 500px;
+        padding-bottom: 50px; 
+        
+        .view{
+            width: 180px;
+            height: 50px;
+            border: 2px solid black;
+            border-radius: 0;
+            border-right: 0;
+            color: black;
+            font-family: Montserrat;
+            font-size: 20px;
+            font-weight: 700;
+            
+        }
+        .download{
+            width: 100px;
+            height: 50px;
+            margin-left: -10px;
+            border-radius: 0;
+            border: 2px solid black;
+            color: black;
+            font-family: Montserrat;
+            font-size: 20px;
+            font-weight: 700;
+            img{
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+    
 }
